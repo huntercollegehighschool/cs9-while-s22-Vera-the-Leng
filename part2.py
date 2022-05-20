@@ -11,3 +11,10 @@ Hunter
 Hunter
 
 '''
+
+num = int(input("Enter a number: "))
+count = 1
+
+while count <= num:
+  print("Hunter")
+  count = count + 1
