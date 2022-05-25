@@ -20,7 +20,10 @@ Number of evens: 3
 '''
 
 num = int(input("Enter a number or enter 0 to stop:"))
-count = 1
+count = 0
 
-while num =! 0
-    #do stuff
+while num != 0:
+  if num % 2 == 0:
+    count = count + 1
+  num = int(input("Enter a number or enter 0 to stop:"))
+print("Number of evens: ", count)
